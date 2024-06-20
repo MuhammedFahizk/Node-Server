@@ -9,7 +9,7 @@ const { default: mongoose } = require('mongoose');
 
 
 
-app.use(cors({origin:  ['http://localhost:5174', 'http://localhost:5175'],
+app.use(cors({origin:  ['http://localhost:5174', 'http://localhost:5175', 'https://to-do-kanban-li2g5mgcr-fahiz-mavoors-projects.vercel.app'],
   methods: ['GET', 'POST'],
   credentials: true
 })); // Enable CORS
